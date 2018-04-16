@@ -54,7 +54,7 @@ class TestTriangulo(unittest.TestCase):
 	def test_entradaMal(self):
 		self.assertEqual(Triangulo.clasificacionTriangulo(3,3), "No es un Triangulo")
 
-	def test_entradaMal(self):
+	def test_entradaMal2(self):
 		self.assertEqual(Triangulo.clasificacionTriangulo(3,3,4,5), "No es un Triangulo")
 
 if __name__ == "__main__":
